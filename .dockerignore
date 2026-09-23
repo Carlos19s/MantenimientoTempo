@@ -1,0 +1,12 @@
+# Ignorar artefactos de build locales (generados en Windows, rompen el build en Linux)
+**/bin/
+**/obj/
+
+# Git
+.git/
+.gitignore
+
+# Visual Studio
+.vs/
+*.user
+*.slnLaunch.user

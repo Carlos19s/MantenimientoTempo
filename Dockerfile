@@ -22,10 +22,9 @@ RUN dotnet publish MantenimientoTempoApi/MantenimientoTempoApi.csproj \
 FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS runtime
 WORKDIR /app
 
-# Railway inyecta la variable PORT; ASP.NET la recoge con ASPNETCORE_URLS
-ENV ASPNETCORE_URLS=http://+:${PORT:-8080}
 ENV ASPNETCORE_ENVIRONMENT=Production
 
 COPY --from=build /app/publish .
 
-ENTRYPOINT ["dotnet", "MantenimientoTempoApi.dll"]
+# PORT es inyectado por Railway en runtime; se evalúa al iniciar el contenedor
+CMD ASPNETCORE_URLS="http://+:${PORT:-8080}" dotnet MantenimientoTempoApi.dll
