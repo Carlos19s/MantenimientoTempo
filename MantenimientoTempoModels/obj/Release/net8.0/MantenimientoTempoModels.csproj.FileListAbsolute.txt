@@ -1,0 +1,13 @@
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\bin\Release\net8.0\MantenimientoTempoModels.deps.json
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\bin\Release\net8.0\MantenimientoTempoModels.dll
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\bin\Release\net8.0\MantenimientoTempoModels.pdb
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\MantenimientoTempoModels.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\MantenimientoTempoModels.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\MantenimientoTempoModels.AssemblyInfo.cs
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\MantenimientoTempoModels.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\MantenimientoTempoModels.dll
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\refint\MantenimientoTempoModels.dll
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\MantenimientoTempoModels.pdb
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\ref\MantenimientoTempoModels.dll
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\Mantenim.E279134E.Up2Date
+C:\Users\Admin\source\repos\MantenimientoTempo\MantenimientoTempoModels\obj\Release\net8.0\MantenimientoTempoModels.sourcelink.json
