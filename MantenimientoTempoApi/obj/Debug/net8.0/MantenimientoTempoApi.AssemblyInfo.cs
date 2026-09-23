@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MantenimientoTempoApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+36ca4efd986af1c75c02e4ee07f9de461412d5f6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c199068e55810f58e0eae7c56231b523053e86a4")]
 [assembly: System.Reflection.AssemblyProductAttribute("MantenimientoTempoApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MantenimientoTempoApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
