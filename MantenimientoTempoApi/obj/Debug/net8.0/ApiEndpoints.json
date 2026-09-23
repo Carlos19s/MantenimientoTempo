@@ -1,0 +1,337 @@
+[
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.ActualizacionesController",
+    "Method": "DescargarNuevaVersion",
+    "RelativePath": "api/Actualizaciones/descargar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.ActualizacionesController",
+    "Method": "ObtenerUltimaVersion",
+    "RelativePath": "api/Actualizaciones/version",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.AuthController",
+    "Method": "CrearUsuarioInicial",
+    "RelativePath": "api/Auth/crear-usuario-inicial",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nombreCompleto",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "rolId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MantenimientoTempoModels.DTOs.Auth.LoginRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.EquiposController",
+    "Method": "AutorizarEquipo",
+    "RelativePath": "api/Equipos/autorizar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "MantenimientoTempoApi.Controllers.AutorizarEquipoRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.EquiposController",
+    "Method": "ValidarEquipo",
+    "RelativePath": "api/Equipos/validar/{hardwareId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "hardwareId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.MantenimientosController",
+    "Method": "ListarMantenimientos",
+    "RelativePath": "api/Mantenimientos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estado",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.MantenimientosController",
+    "Method": "Ejecutar",
+    "RelativePath": "api/Mantenimientos/ejecutar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MantenimientoTempoModels.DTOs.Mantenimientos.EjecutarMantenimientoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.MantenimientosController",
+    "Method": "Programar",
+    "RelativePath": "api/Mantenimientos/programar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MantenimientoTempoModels.DTOs.Mantenimientos.ProgramarMantenimientoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.MaquinasController",
+    "Method": "ObtenerMaquinas",
+    "RelativePath": "api/Maquinas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.MaquinasController",
+    "Method": "CrearMaquina",
+    "RelativePath": "api/Maquinas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MantenimientoTempoModels.DTOs.Maquinas.CrearMaquinaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.MaquinasController",
+    "Method": "ObtenerPorId",
+    "RelativePath": "api/Maquinas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.MaquinasController",
+    "Method": "ActualizarMaquina",
+    "RelativePath": "api/Maquinas/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "MantenimientoTempoModels.DTOs.Maquinas.ActualizarMaquinaDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.PlanesMantenimientoController",
+    "Method": "CrearPlan",
+    "RelativePath": "api/PlanesMantenimiento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MantenimientoTempoModels.DTOs.Mantenimientos.CrearPlanMantenimientoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.PlanesMantenimientoController",
+    "Method": "ObtenerPorMaquina",
+    "RelativePath": "api/PlanesMantenimiento/maquina/{maquinaId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "maquinaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.ProduccionController",
+    "Method": "RegistrarKilos",
+    "RelativePath": "api/Produccion/registrar-kilos",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MantenimientoTempoModels.DTOs.Produccion.RegistrarProduccionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.TestController",
+    "Method": "ProbarConexion",
+    "RelativePath": "api/Test/conexion",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.UsuariosController",
+    "Method": "ListarUsuarios",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.UsuariosController",
+    "Method": "CrearUsuario",
+    "RelativePath": "api/Usuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "MantenimientoTempoModels.DTOs.Auth.CrearUsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.UsuariosController",
+    "Method": "CambiarEstado",
+    "RelativePath": "api/Usuarios/{id}/estado",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "activo",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.UsuariosController",
+    "Method": "ListarPermisos",
+    "RelativePath": "api/Usuarios/permisos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MantenimientoTempoApi.Controllers.UsuariosController",
+    "Method": "ListarRoles",
+    "RelativePath": "api/Usuarios/roles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
