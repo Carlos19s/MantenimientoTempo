@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MantenimientoTempo/MantenimientoTempo.csproj" />
+  <Project Path="MantenimientoTempoApi/MantenimientoTempoApi.csproj" />
+  <Project Path="MantenimientoTempoModels/MantenimientoTempoModels.csproj" />
+</Solution>
