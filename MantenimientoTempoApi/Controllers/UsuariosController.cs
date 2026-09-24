@@ -8,7 +8,7 @@ namespace MantenimientoTempoApi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [AllowAnonymous]
+    [Authorize]//Problema encontrado
     public class UsuariosController : ControllerBase
     {
         private readonly IUsuariosRepository _usuariosRepo;
